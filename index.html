@@ -3,10 +3,31 @@
     <head>
         <meta charset="utf-8" />
         <title>Webpack App</title>
+        <style>
+            html, body {
+                height: 100%;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+            }
+
+            .node {
+                fill: steelblue;
+                stroke: none;
+                }
+
+            .link {
+                fill: none;
+                stroke: #ccc;
+                stroke-width: 1px;
+            }
+
+        </style>
     </head>
     <body>
-        <svg>
-            
+        <svg height="100%" width="100%">
+            <g class="links"></g>
+            <g class="nodes"></g>
         </svg>
     </body>
     
